@@ -61,7 +61,7 @@ The AI model was trained using the **EMNIST dataset**, a large-scale dataset for
 ✅ **Testing Images** – **18,800 samples**.  
 
 🗂️ **Examples of Handwritten Characters:**  
-![EMNIST Dataset](docs/emnist-samples.png)  
+![EMNIST Dataset](docs/char.png)  
 
 ---
 
@@ -274,8 +274,31 @@ The **Prescription Scanning Feature** is the heart of the app, making **handwrit
 
 With **MediScan**, managing prescriptions is no longer a hassle—it's **fast, reliable, and accessible anytime, anywhere**. 🚀💊
 
-When a patient clicks on the scan prescription button or the action button on the patient dashboard, they are directed to the prescription scanning page. The scanning page shows the patient a camera preview. The patient can use this to capture an image of their prescription. Once the patient has captured an image of the prescription, a cropping screen is displayed which lets them crop the image to remove any background objects. When the patient is satisfied with the cropped image, they can click the done button. The patient is then shown a confirmation page where the image is displayed. The patient has to make sure that the image is sharp and the prescription is visible so that the recognition process is efficient and accurate. The patient can tap the retry button to click another image or tap the continue button to proceed with the recognition process.
-When the patient taps the **Continue** button, the image is passed through the **handwriting recognition pipeline**, which extracts handwritten text from the prescription. The app then performs a **similarity detection check** against the **medicine database** to ensure accuracy and retrieve the exact medicine name. Once a match is found, the **medicine name and details** are displayed to the patient and stored in their **prescription database**. Additionally, if the patient wishes to order the prescribed medicines, they can choose to be redirected to leading online pharmacies such as **PharmEasy, 1mg, Netmeds, and Apollo Pharmacy** for seamless ordering.  
-
-## Flow Diagram  
+### 📸 **Prescription Scanning Process: From Capture to Convenience**  
+# Flow Diagram  
 ![Flow Diagram](docs/flow.png) 
+When a patient taps the **Scan Prescription** button or the **action button** on the dashboard, they are seamlessly guided through an intuitive and efficient scanning process designed for accuracy and ease of use.  
+
+#### 🏥 **Step 1: Capturing the Prescription**  
+🔹 The patient is taken to a **camera preview screen**, where they can align their prescription and capture a clear image.  
+
+#### ✂️ **Step 2: Cropping for Precision**  
+🔹 A **cropping tool** appears, allowing the patient to remove unnecessary background details and focus only on the prescription.  
+🔹 Once satisfied, they can tap **Done** to proceed.  
+
+#### ✅ **Step 3: Confirmation & Verification**  
+🔹 A **preview screen** displays the captured image, ensuring clarity for accurate recognition.  
+🔹 The patient can either **Retry** for a better image or tap **Continue** to proceed.  
+
+#### 🔍 **Step 4: AI-Powered Handwriting Recognition**  
+🚀 The image is processed through the **advanced handwriting recognition pipeline**, extracting the handwritten medicine names with precision.  
+
+#### 🏥 **Step 5: Smart Medicine Matching**  
+🔹 The app **cross-checks** the extracted text against an extensive **medicine database**, ensuring accuracy and detecting the correct medicine names.  
+
+#### 🛒 **Step 6: Instant Access & Online Ordering**  
+✅ Matched **medicine names & details** are displayed on the screen.  
+✅ The prescription is securely stored in the **patient’s database** for future reference.  
+✅ Patients can seamlessly place an order with leading **online pharmacies** like **PharmEasy, 1mg, Netmeds, and Apollo Pharmacy** for hassle-free doorstep delivery.  
+
+With this streamlined process, **getting prescriptions digitized and medicines delivered has never been easier!** 🚀
