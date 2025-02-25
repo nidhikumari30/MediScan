@@ -273,10 +273,10 @@ The **Prescription Scanning Feature** is the heart of the app, making **handwrit
 ✅ **One-tap ordering**: If needed, users can be redirected to **top online pharmacies like PharmEasy, 1mg, Netmeds, and Apollo Pharmacy** to order medications effortlessly.  
 
 With **MediScan**, managing prescriptions is no longer a hassle—it's **fast, reliable, and accessible anytime, anywhere**. 🚀💊
-
-### 📸 **Prescription Scanning Process: From Capture to Convenience**  
-# Flow Diagram  
+### Flow Diagram  
 ![Flow Diagram](docs/flow.png) 
+### 📸 **Prescription Scanning Process: From Capture to Convenience**  
+
 When a patient taps the **Scan Prescription** button or the **action button** on the dashboard, they are seamlessly guided through an intuitive and efficient scanning process designed for accuracy and ease of use.  
 
 #### 🏥 **Step 1: Capturing the Prescription**  
